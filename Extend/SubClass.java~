@@ -19,9 +19,9 @@ public class SubClass extends Multiplication{
 		Multiplication M = new Multiplication() ;
 		int mult = M.multiply(10,20) ;
 		System.out.println("Multiplication result is  " + mult) ;
-	  }
-	  public  int subtract(int a, int b){
-	  return(a-b);	
-	  }
+	}
+	public  int subtract(int a, int b){
+	return(a-b);	
+	}
 	
 }
