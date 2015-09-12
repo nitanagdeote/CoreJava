@@ -5,20 +5,15 @@ import package1.Multiplication;
 
 public class CheckOverrideC extends Multiplication{
 
-	/**
-	 * @param args
-	 */
-    public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+	public static void main(String[] args) {
+	CheckOverrideC SC = new CheckOverrideC();
+	int value = SC.multiply(100,20) ;
+	System.out.println("Subraction result is " + value) ;
 		
-    CheckOverrideC SC = new CheckOverrideC();
-	  int value = SC.multiply(100,20) ;
-	  System.out.println("Subraction result is " + value) ;
-		
-		
-	  }
-	  public  int multiply(int a, int b){
-	  return(a-b);	
-		}
+	}
+	public  int multiply(int a, int b){
+	return(a-b);	
+	}
 	
 }
