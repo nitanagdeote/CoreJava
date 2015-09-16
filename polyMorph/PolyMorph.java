@@ -24,7 +24,7 @@ class check{
 	return (a);
 	}
 	public String hello(String b){
-	return ("hellow");
+	return ("hello");
 	}	
 	public double hello(double b){
 		return (b);
