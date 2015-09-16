@@ -13,7 +13,7 @@ public class CalculateBill {
 		bill1.year = 2015;
 		System.out.println("bill year is "+bill1.year + ", date "+ bill1.date+",  bill units  " + bill1.units);
 		System.out.println("Calculated Bill is "+ cal1.BillCal(bill1.date, bill1.year, bill1.units));
-				;
+				
 	}
 
 	
